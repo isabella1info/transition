@@ -115,6 +115,8 @@ body{
 
 .giro img {
     transition: transform 2s;
+    border-radius: 50%;
+   
 }
 
 .giro:hover img {
@@ -253,7 +255,7 @@ body{
 
 .scd-05__fan:hover .scd-05__card,
 .scd-05__fan:focus-within .scd-05__card {
-    transform: rotate(calc(var(--n) * 30deg)) translateY(calc(var(--n) * var(--n) * -2px));
+    transform: rotate(calc(var(--n) * 30deg)) translateY(calc(var(--n) * var(--n) * -2px)) ;
 }
 
 .scd-05__card:nth-child(1) {
@@ -277,7 +279,7 @@ body{
 }
 
 .scd-05__card:hover {
-    transform: rotate(calc(var(--n) * 30deg)) translateY(-24px);
+    transform: rotate(calc(var(--n) * 30deg)) translateY(-24px) !important;
 }
 
 @media (prefers-reduced-motion: reduce) {
